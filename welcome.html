@@ -90,7 +90,17 @@
       renderDecisions: true,
       personalization: {
         surfaces: ["#ajo-offer"]
-      }
+      },
+	// Include the identityMap with the ECID to ensure correct user targeting
+	xdm: {
+    identityMap: {
+      "ECID": [
+			{
+			"id": "BUF00wJmp4v7xG3q7fdfoMmoaKPl3KJg"
+			}
+			]
+		}
+	}
     }).then(result => {
       console.log("🔍 Web SDK decision response:", result);
 

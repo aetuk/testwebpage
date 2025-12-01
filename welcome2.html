@@ -114,11 +114,25 @@
 
       const container = document.getElementById("ajo-offer2");
       if (html && container) {
-        const decodedHtml = decodeHtmlEntities(html);
+        
+		const decodedHtml = decodeHtmlEntities(html);
         console.log("✅ Offer HTML content (decoded):", decodedHtml);
         container.innerHTML = decodedHtml;
+		
+		var ifrm = document.createElement("iframe");
+        ifrm.setAttribute("src", "http://google.com/");
+        ifrm.style.width = "640px";
+        ifrm.style.height = "480px";
+        container.appendChild(ifrm);
+		
       } else {
         console.warn("⚠️ No personalized offer returned.");
+		
+	    var ifrm = document.createElement("iframe");
+        ifrm.setAttribute("src", "http://google.com/");
+        ifrm.style.width = "640px";
+        ifrm.style.height = "480px";
+        container.appendChild(ifrm);
       }
 
       

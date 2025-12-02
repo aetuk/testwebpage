@@ -115,12 +115,12 @@
       const container = document.getElementById("ajo-offer2");
       if (html && container) {
         
-		const decodedHtml = decodeHtmlEntities(html);
-        console.log("✅ Offer HTML content (decoded):", decodedHtml);
-        container.innerHTML = decodedHtml;
+		//const decodedHtml = decodeHtmlEntities(html);
+        console.log("✅ Offer content (decoded):", html);
+        //container.innerHTML = decodedHtml;
 		
 		var ifrm = document.createElement("iframe");
-        ifrm.setAttribute("src", "html");
+        ifrm.setAttribute("src", html);
         ifrm.style.width = "640px";
         ifrm.style.height = "480px";
         container.appendChild(ifrm);

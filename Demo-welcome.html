@@ -54,7 +54,7 @@
       <p>Ready to take the next step? Fill out the form to see how we can help grow your wealth.</p>
     </div>
 
-    <div class="right-column" id="ajo-offer3">
+    <div class="right-column" id="ajo-offer4">
       <!-- AJO will inject personalized form or offer here -->
       <p>Decisioning will place a offer here</p>
     </div>
@@ -89,7 +89,7 @@
     alloy("sendEvent", {
       renderDecisions: true,
       personalization: {
-        surfaces: ["#ajo-offer3"]
+        surfaces: ["#ajo-offer4"]
       },
 	// Include the identityMap with the ECID to ensure correct user targeting
 	xdm: {
@@ -112,7 +112,7 @@
       const decision = result.propositions?.[0];
       const html = decision?.items?.[0]?.data?.content;
 
-      const container = document.getElementById("ajo-offer3");
+      const container = document.getElementById("ajo-offer4");
       if (html && container) {
         
 		var OfferURL = html[0]["OfferURL"];

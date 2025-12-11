@@ -1,0 +1,74 @@
+{
+  "destinations": [],
+  "propositions": [
+    {
+      "id": "74b4d364-72b9-4f01-beab-154d8b6d56de",
+      "scope": "web://aetuk.github.io/testwebpage/welcome2.html#ajo-offer2",
+      "scopeDetails": {
+        "decisionProvider": "AJO",
+        "correlationID": "3464f921-76b8-4c07-88cb-c7e68d7d866c-0",
+        "characteristics": {
+          "eventToken": "eyJtZXNzYWdlRXhlY3V0aW9uIjp7Im1lc3NhZ2VFeGVjdXRpb25JRCI6IlVFOkluYm91bmQiLCJtZXNzYWdlSUQiOiIzOTljYzVjZi1iZjEwLTQ3ZGMtYjA4OS05Y2VkNGQ3YTZiOWUiLCJtZXNzYWdlUHVibGljYXRpb25JRCI6IjM0NjRmOTIxLTc2YjgtNGMwNy04OGNiLWM3ZTY4ZDdkODY2YyIsIm1lc3NhZ2VUeXBlIjoibWFya2V0aW5nIiwiY2FtcGFpZ25JRCI6ImFhM2U1NzA3LWFhNWYtNDAyZC1iMDNhLTk5NjljYjA4YTA5NiIsImNhbXBhaWduVmVyc2lvbklEIjoiZjJkZDM0ZjgtOTg5MC00OGFmLWEzZTctZDg0NTQ0YWUzYWFkIiwiY2FtcGFpZ25BY3Rpb25JRCI6IjM5N2Y1MDY4LTBhZDktNGZkMy1iODExLWYzYzQyNzE5NDcxOCJ9LCJtZXNzYWdlUHJvZmlsZSI6eyJtZXNzYWdlUHJvZmlsZUlEIjoiYTcwNTQ3MmQtOGM5YS00MmQ1LTkyNTYtMmZiYzlkNGNlZjEzIiwiY2hhbm5lbCI6eyJfaWQiOiJodHRwczovL25zLmFkb2JlLmNvbS94ZG0vY2hhbm5lbHMvY29kZSIsIl90eXBlIjoiaHR0cHM6Ly9ucy5hZG9iZS5jb20veGRtL2NoYW5uZWwtdHlwZXMvY29kZSJ9fX0=",
+          "subPropositions": "W3siaWQiOiJmMzU4M2UwMS0yZjRmLTRjNmEtOTFiYi0xZmYyYTY3YWIxODkiLCJzY29wZSI6IndlYjovL2FldHVrLmdpdGh1Yi5pby90ZXN0d2VicGFnZS93ZWxjb21lMi5odG1sI2Fqby1vZmZlcjIiLCJzY29wZURldGFpbHMiOnsiZGVjaXNpb25Qcm92aWRlciI6IkVYRCIsImNvcnJlbGF0aW9uSUQiOiIzNDY0ZjkyMS03NmI4LTRjMDctODhjYi1jN2U2OGQ3ZDg2NmMtMCIsInN0cmF0ZWdpZXMiOlt7InN0cmF0ZWd5SUQiOiI1MDViYjhlNi0wNDZiLTRiMDctYTVkNy1kMGNlOGFlZGIwOGEiLCJzdGVwIjoiZGVjaXNpb25Qb2xpY3kifSx7InN0cmF0ZWd5SUQiOiJ3ZWI6Ly9hZXR1ay5naXRodWIuaW8vdGVzdHdlYnBhZ2Uvd2VsY29tZTIuaHRtbCNham8tb2ZmZXIyIiwic3RlcCI6InBsYWNlbWVudCJ9XSwicmFuayI6MSwiYWN0aXZpdHkiOnsiaWQiOiJhYTNlNTcwNy1hYTVmLTQwMmQtYjAzYS05OTY5Y2IwOGEwOTYjMzk3ZjUwNjgtMGFkOS00ZmQzLWI4MTEtZjNjNDI3MTk0NzE4IiwicHJpb3JpdHkiOjAsIm1hdGNoZWRTdXJmYWNlcyI6WyJ3ZWI6Ly9hZXR1ay5naXRodWIuaW8vdGVzdHdlYnBhZ2Uvd2VsY29tZTIuaHRtbCNham8tb2ZmZXIyIl19fSwiaXRlbXMiOlt7ImlkIjoiZHBzOmUzZDdlYTY3ZTFmMGRhMDNiMDM2NDFiYTEzMjFmZTJjZDlkMGZjN2I3YWQ5ZTRlMzoxYmFkOTQzNDk4MzRiNTVmIiwiZXRhZyI6IjciLCJuYW1lIjoiTG92ZSBCb25kcyB3aXRoIHRyZWF0bWVudCIsInNjb3JlIjoxLjAsIml0ZW1TZWxlY3Rpb24iOnsic2VsZWN0aW9uRGV0YWlsIjp7InN0cmF0ZWd5SUQiOiJkcHM6c2VsZWN0aW9uLXN0cmF0ZWd5OjFiYWQ5NmY4NmQyYmUxZDQiLCJzdHJhdGVneU5hbWUiOiJGaW5fV2lzZV9TdHJhdGVneV9XaXRoX1RyZWF0bWVudHMiLCJzZWxlY3Rpb25UeXBlIjoic2VsZWN0aW9uU3RyYXRlZ3kiLCJ2ZXJzaW9uIjoibGF0ZXN0In0sInJhbmtpbmdEZXRhaWwiOnsic3RlcCI6InByaW9yaXR5In19LCJ0b2tlbiI6IitaUzc2RktPUVUzdUY4SlI4cWVDSlEifV19XQ=="
+        },
+        "rank": 1,
+        "activity": {
+          "id": "aa3e5707-aa5f-402d-b03a-9969cb08a096#397f5068-0ad9-4fd3-b811-f3c427194718",
+          "priority": 0,
+          "matchedSurfaces": [
+            "web://aetuk.github.io/testwebpage/welcome2.html#ajo-offer2"
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "ca8c957c-215a-4a69-8737-4202c81c26a4",
+          "schema": "https://ns.adobe.com/personalization/json-content-item",
+          "data": {
+            "content": [
+              {
+                "OfferURL": "https://aetuk.github.io/testwebpage/treatment_lovesbonds.html"
+              }
+            ]
+          }
+        }
+      ],
+      "renderAttempted": false
+    }
+  ],
+  "decisions": [
+    {
+      "id": "74b4d364-72b9-4f01-beab-154d8b6d56de",
+      "scope": "web://aetuk.github.io/testwebpage/welcome2.html#ajo-offer2",
+      "scopeDetails": {
+        "decisionProvider": "AJO",
+        "correlationID": "3464f921-76b8-4c07-88cb-c7e68d7d866c-0",
+        "characteristics": {
+          "eventToken": "eyJtZXNzYWdlRXhlY3V0aW9uIjp7Im1lc3NhZ2VFeGVjdXRpb25JRCI6IlVFOkluYm91bmQiLCJtZXNzYWdlSUQiOiIzOTljYzVjZi1iZjEwLTQ3ZGMtYjA4OS05Y2VkNGQ3YTZiOWUiLCJtZXNzYWdlUHVibGljYXRpb25JRCI6IjM0NjRmOTIxLTc2YjgtNGMwNy04OGNiLWM3ZTY4ZDdkODY2YyIsIm1lc3NhZ2VUeXBlIjoibWFya2V0aW5nIiwiY2FtcGFpZ25JRCI6ImFhM2U1NzA3LWFhNWYtNDAyZC1iMDNhLTk5NjljYjA4YTA5NiIsImNhbXBhaWduVmVyc2lvbklEIjoiZjJkZDM0ZjgtOTg5MC00OGFmLWEzZTctZDg0NTQ0YWUzYWFkIiwiY2FtcGFpZ25BY3Rpb25JRCI6IjM5N2Y1MDY4LTBhZDktNGZkMy1iODExLWYzYzQyNzE5NDcxOCJ9LCJtZXNzYWdlUHJvZmlsZSI6eyJtZXNzYWdlUHJvZmlsZUlEIjoiYTcwNTQ3MmQtOGM5YS00MmQ1LTkyNTYtMmZiYzlkNGNlZjEzIiwiY2hhbm5lbCI6eyJfaWQiOiJodHRwczovL25zLmFkb2JlLmNvbS94ZG0vY2hhbm5lbHMvY29kZSIsIl90eXBlIjoiaHR0cHM6Ly9ucy5hZG9iZS5jb20veGRtL2NoYW5uZWwtdHlwZXMvY29kZSJ9fX0=",
+          "subPropositions": "W3siaWQiOiJmMzU4M2UwMS0yZjRmLTRjNmEtOTFiYi0xZmYyYTY3YWIxODkiLCJzY29wZSI6IndlYjovL2FldHVrLmdpdGh1Yi5pby90ZXN0d2VicGFnZS93ZWxjb21lMi5odG1sI2Fqby1vZmZlcjIiLCJzY29wZURldGFpbHMiOnsiZGVjaXNpb25Qcm92aWRlciI6IkVYRCIsImNvcnJlbGF0aW9uSUQiOiIzNDY0ZjkyMS03NmI4LTRjMDctODhjYi1jN2U2OGQ3ZDg2NmMtMCIsInN0cmF0ZWdpZXMiOlt7InN0cmF0ZWd5SUQiOiI1MDViYjhlNi0wNDZiLTRiMDctYTVkNy1kMGNlOGFlZGIwOGEiLCJzdGVwIjoiZGVjaXNpb25Qb2xpY3kifSx7InN0cmF0ZWd5SUQiOiJ3ZWI6Ly9hZXR1ay5naXRodWIuaW8vdGVzdHdlYnBhZ2Uvd2VsY29tZTIuaHRtbCNham8tb2ZmZXIyIiwic3RlcCI6InBsYWNlbWVudCJ9XSwicmFuayI6MSwiYWN0aXZpdHkiOnsiaWQiOiJhYTNlNTcwNy1hYTVmLTQwMmQtYjAzYS05OTY5Y2IwOGEwOTYjMzk3ZjUwNjgtMGFkOS00ZmQzLWI4MTEtZjNjNDI3MTk0NzE4IiwicHJpb3JpdHkiOjAsIm1hdGNoZWRTdXJmYWNlcyI6WyJ3ZWI6Ly9hZXR1ay5naXRodWIuaW8vdGVzdHdlYnBhZ2Uvd2VsY29tZTIuaHRtbCNham8tb2ZmZXIyIl19fSwiaXRlbXMiOlt7ImlkIjoiZHBzOmUzZDdlYTY3ZTFmMGRhMDNiMDM2NDFiYTEzMjFmZTJjZDlkMGZjN2I3YWQ5ZTRlMzoxYmFkOTQzNDk4MzRiNTVmIiwiZXRhZyI6IjciLCJuYW1lIjoiTG92ZSBCb25kcyB3aXRoIHRyZWF0bWVudCIsInNjb3JlIjoxLjAsIml0ZW1TZWxlY3Rpb24iOnsic2VsZWN0aW9uRGV0YWlsIjp7InN0cmF0ZWd5SUQiOiJkcHM6c2VsZWN0aW9uLXN0cmF0ZWd5OjFiYWQ5NmY4NmQyYmUxZDQiLCJzdHJhdGVneU5hbWUiOiJGaW5fV2lzZV9TdHJhdGVneV9XaXRoX1RyZWF0bWVudHMiLCJzZWxlY3Rpb25UeXBlIjoic2VsZWN0aW9uU3RyYXRlZ3kiLCJ2ZXJzaW9uIjoibGF0ZXN0In0sInJhbmtpbmdEZXRhaWwiOnsic3RlcCI6InByaW9yaXR5In19LCJ0b2tlbiI6IitaUzc2RktPUVUzdUY4SlI4cWVDSlEifV19XQ=="
+        },
+        "rank": 1,
+        "activity": {
+          "id": "aa3e5707-aa5f-402d-b03a-9969cb08a096#397f5068-0ad9-4fd3-b811-f3c427194718",
+          "priority": 0,
+          "matchedSurfaces": [
+            "web://aetuk.github.io/testwebpage/welcome2.html#ajo-offer2"
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "ca8c957c-215a-4a69-8737-4202c81c26a4",
+          "schema": "https://ns.adobe.com/personalization/json-content-item",
+          "data": {
+            "content": [
+              {
+                "OfferURL": "https://aetuk.github.io/testwebpage/treatment_lovesbonds.html"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

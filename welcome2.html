@@ -108,6 +108,9 @@
 	}
     }).then(result => {
       console.log("🔍 Web SDK decision response:", result);
+	  
+	  const result_str = JSON.stringify(result);
+	  console.log("🔍 Web SDK decision response:", result_str);
 
       const decision = result.propositions?.[0];
       const html = decision?.items?.[0]?.data?.content;

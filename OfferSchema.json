@@ -1,0 +1,127 @@
+[
+  {
+    "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/3d67bae02c3804bff1f20c10bf7a087664251ae26d39a125",
+    "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.mixins.3d67bae02c3804bff1f20c10bf7a087664251ae26d39a125",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Alior decisioning data",
+    "type": "object",
+    "description": "",
+    "definitions": {
+      "customFields": {
+        "properties": {
+          "_<XDM_TENANTID_PLACEHOLDER>": {
+            "type": "object",
+            "properties": {
+              "placementId": {
+                "minLength": 0,
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "placementId",
+                "meta:xdmType": "string"
+              },
+              "offerid": {
+                "required": [],
+                "type": "string",
+                "title": "offerid",
+                "meta:xdmType": "string"
+              },
+              "cappingkey": {
+                "minLength": 0,
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "cappingkey",
+                "meta:xdmType": "string"
+              },
+              "fmapkey": {
+                "minLength": 1,
+                "required": [],
+                "type": "string",
+                "description": "",
+                "title": "fm-map-key",
+                "meta:xdmType": "string"
+              }
+            },
+            "meta:xdmType": "object"
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "$ref": "#/definitions/customFields",
+        "type": "object",
+        "meta:xdmType": "object"
+      }
+    ],
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [],
+    "meta:xdmType": "object",
+    "meta:sandboxId": "bdd63cff-3f0f-44c7-963c-ff3f0fe4c776",
+    "meta:sandboxType": "development"
+  },
+  {
+    "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/af9ca741384b364a682e2308b754f19f8ee4507e32224033",
+    "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.schemas.af9ca741384b364a682e2308b754f19f8ee4507e32224033",
+    "meta:resourceType": "schemas",
+    "version": "1.4",
+    "title": "Alior Experience Event",
+    "type": "object",
+    "description": "",
+    "allOf": [
+      {
+        "$ref": "https://ns.adobe.com/xdm/context/experienceevent",
+        "type": "object",
+        "meta:xdmType": "object"
+      },
+      {
+        "$ref": "https://ns.adobe.com/experience/aep-web-sdk-experienceevent",
+        "type": "object",
+        "meta:xdmType": "object"
+      },
+      {
+        "$ref": "https://ns.adobe.com/experience/aep-mobile-lifecycle-details",
+        "type": "object",
+        "meta:xdmType": "object"
+      },
+      {
+        "$ref": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/3d67bae02c3804bff1f20c10bf7a087664251ae26d39a125",
+        "type": "object",
+        "meta:xdmType": "object"
+      },
+      {
+        "$ref": "https://ns.adobe.com/experience/decisioning/proposition-interaction",
+        "type": "object",
+        "meta:xdmType": "object"
+      }
+    ],
+    "required": [
+      "@id",
+      "xdm:timestamp"
+    ],
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+      "https://ns.adobe.com/xdm/data/time-series",
+      "https://ns.adobe.com/experience/aep-mobile-lifecycle-details",
+      "https://ns.adobe.com/xdm/context/experienceevent-implementation-details",
+      "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/3d67bae02c3804bff1f20c10bf7a087664251ae26d39a125",
+      "https://ns.adobe.com/experience/experienceevent-edgeregion",
+      "https://ns.adobe.com/xdm/context/experienceevent-segment-list",
+      "https://ns.adobe.com/xdm/context/identitymap",
+      "https://ns.adobe.com/experience/aep-web-sdk-experienceevent",
+      "https://ns.adobe.com/xdm/context/experienceevent-web",
+      "https://ns.adobe.com/experience/decisioning/proposition-interaction",
+      "https://ns.adobe.com/xdm/context/experienceevent-environment-details",
+      "https://ns.adobe.com/xdm/context/experienceevent"
+    ],
+    "meta:xdmType": "object",
+    "meta:class": "https://ns.adobe.com/xdm/context/experienceevent",
+    "meta:sandboxId": "bdd63cff-3f0f-44c7-963c-ff3f0fe4c776",
+    "meta:sandboxType": "development",
+    "meta:immutableTags": []
+  }
+]

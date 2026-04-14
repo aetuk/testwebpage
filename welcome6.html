@@ -110,7 +110,7 @@
       console.log("🔍 Web SDK decision response:", result);
 
       const decision = result.propositions?.[0];
-      const html = decision?.items?.[0]?.data?.content;
+      const html = decision?.items?.[0]?.data?.offerItem;
 
       const container = document.getElementById("ajo-offer5");
       if (html && container) {
